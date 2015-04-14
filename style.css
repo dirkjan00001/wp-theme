@@ -1,0 +1,49 @@
+/*
+Theme Name: Audio Modules theme
+Theme URI: http://www.cryoutcreations.eu/nirvana
+Description: Some modification to the origional theme
+Author: Audio modules
+Author URI: http://www.audiomodules.net
+Template: nirvana
+Version: 1.0
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: white, black, blue, orange, red, gray, green, silver, light, one-column, two-columns, three-columns, right-sidebar, left-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, flexible-header, custom-menu, featured-image-header, featured-images, front-page-post-form, full-width-template,  microformats, post-formats, rtl-language-support,  sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: nirvana-child
+
+*/
+
+
+/* HEADER SOCIALS */
+#sheader a {margin-right: 10px; } 
+
+/*fix annoying jumping with unequal height in mobile theme*/
+@media (max-width: 640px) {.nivo-caption {height:13em;}} 
+
+/*navigation menu*/
+.fixed{
+    position:fixed;
+    top:0;
+    z-index:100000;
+}
+@media (max-width: 640px){
+	.fixed{position:initial!important;}
+}
+.menucompensation{
+	margin-top:52px;
+}
+
+/*product icons */
+#front-columns-box .product-icons{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+#front-columns-box .product-icon{
+	width:1.3em;
+	max-height:1.3em;
+	margin:.2em;
+	height:auto;
+	float:left;
+}
