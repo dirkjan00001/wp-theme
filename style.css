@@ -29,6 +29,21 @@ Text Domain: nirvana-child
 	margin-top:52px;
 }
 
+/* text vertical align centered */
+@media (min-width: 992px){
+	.vcenter {
+	  display: flex;
+	  flex-direction: row;
+	}
+
+	.vcenter > [class^="col-"],
+	.vcenter > [class*=" col-"] {
+	  display: flex;
+	  align-items: center;
+	}
+}
+
+
 /*product icons */
 #front-columns-box .product-icons{
 	position:absolute;
