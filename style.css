@@ -34,6 +34,8 @@ Text Domain: nirvana-child
 	position:absolute;
 	top:0;
 	right:0;
+	z-index:1000;
+	width:100%;
 }
 
 #front-columns-box .product-icon{
@@ -41,8 +43,20 @@ Text Domain: nirvana-child
 	max-height:1.3em;
 	margin:.2em;
 	height:auto;
-	float:left;
+	float:right;
+    transition: transform .25s ease;
+ 	-moz-transition: transform .25s ease;
+ 	-webkit-transition: transform .25s ease;
 }
+
+#front-columns-box .product-icon:hover{
+	transform: scale(1.25);
+}
+
+#front-columns-box .column-image-inside:hover{
+	z-index:10000;
+}
+
 
 /* apear on scroll */
 .revealOnScroll{
