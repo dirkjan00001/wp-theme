@@ -30,9 +30,12 @@ function child_add_scripts() {
   wp_enqueue_script( 'product-icons-js', get_stylesheet_directory_uri() . '/js/loadicons.js' );
   wp_localize_script('product-icons-js', 'WPURLS', array( 'iconsurl' => get_stylesheet_directory_uri() . '/product-icons/' ));	// show the javascript function where the icons are stored
 }
- 
 
-
+// footer
+add_action('cryout_footer_hook', 'footer_add_copy_am');
+function footer_add_copy_am(){
+	echo '<div id="site-copyright"> <span class="copyright">&copy;</span>' . date("Y") . ' Audio Modules. All Rights Reserved. </div>';
+}
 
 
 ?>
