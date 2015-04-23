@@ -13,9 +13,6 @@ Text Domain: nirvana-child
 */
 
 
-/* HEADER SOCIALS */
-#sheader a {margin-right: 10px; } 
-
 /*fix annoying jumping with unequal height in mobile theme*/
 @media (max-width: 640px) {.nivo-caption {height:13em;}} 
 
