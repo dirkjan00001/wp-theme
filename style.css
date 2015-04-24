@@ -19,10 +19,6 @@ Text Domain: nirvana-child
 /* fix for centering text in image*/
 @media(min-width: 640px){.slide-text {text-align:center!important;}}
 
-
-/* hide topbar because it is not used currently */
-div#topbar {display:none}
-
 /*navigation menu*/
 .fixed{
     position:fixed;
