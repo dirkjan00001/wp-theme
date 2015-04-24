@@ -16,6 +16,9 @@ Text Domain: nirvana-child
 /*fix annoying jumping with unequal height in mobile theme*/
 @media (max-width: 640px) {.nivo-caption {height:13em;}} 
 
+/* hide topbar because it is not used currently */
+div#topbar {display:none}
+
 /*navigation menu*/
 .fixed{
     position:fixed;
