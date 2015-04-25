@@ -19,6 +19,9 @@ Text Domain: nirvana-child
 /* fix for centering text in image*/
 @media(min-width: 640px){.slide-text {text-align:center!important;}}
 
+/* fix menu bar color */
+#access ul > li.current_page_item{background-color:inherit;} 
+
 /*navigation menu*/
 .fixed{
     position:fixed;
