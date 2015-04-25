@@ -22,6 +22,10 @@ Text Domain: nirvana-child
 /* fix menu bar color */
 #access ul > li.current_page_item{background-color:inherit;} 
 
+/* for the logo in the menu - not yet fully implemented
+.menu-logo{	display:none;}
+.fixed .menu-logo{display:block;	position:absolute;	height:100%;	padding:1em;}*/
+
 /*navigation menu*/
 .fixed{
     position:fixed;
