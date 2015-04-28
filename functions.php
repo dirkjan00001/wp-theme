@@ -28,6 +28,7 @@ add_action('wp_enqueue_scripts','child_add_scripts');
 function child_add_scripts() {
   wp_enqueue_script( 'smooth-scroll-js', get_stylesheet_directory_uri() . '/js/scroll.js' );
   wp_enqueue_script( 'product-icons-js', get_stylesheet_directory_uri() . '/js/loadicons.js' );
+  wp_enqueue_script( 'collapsible-js', get_stylesheet_directory_uri() . '/js/collapsible.js' );
   wp_localize_script('product-icons-js', 'WPURLS', array( 'iconsurl' => get_stylesheet_directory_uri() . '/icons/' ));	// show the javascript function where the icons are stored
 }
 

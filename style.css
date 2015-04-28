@@ -91,3 +91,14 @@ Text Domain: nirvana-child
 .animated {
   opacity:1;
 }
+
+/*collapsible content*/
+.collapse-class{
+	background-color: white;
+	cursor: pointer;
+	margin-bottom: 2em;
+}
+
+.collapse-class .collapsed{
+	display: none;
+}
